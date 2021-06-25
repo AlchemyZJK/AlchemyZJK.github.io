@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 90%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+nav {
+    height: 50px;
+}
+
+nav #page-icon {
+    height: 54px;
+}
+
+nav #menu {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    padding-right: 36px;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid;
+    border-color: #555;
+}
+
+#articleList {
+    min-height: 360px;
+    margin-top: 102px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+ul .article-li {
+    padding-top: 36px;
+    list-style: none;
+}
+
+ul .article-title {
+    font-size: 2.6em;
+    text-decoration: none;
+    color: #555;
+}
+
+ul .article-date {
+    font-size: 1.2em;
+    color: #777;
+    line-height: 2.4em;
+}
+
+ul .article-digest {
+    font-size: 1em;
+    color: #633;
+}
