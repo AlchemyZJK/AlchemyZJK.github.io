@@ -144,8 +144,9 @@ ul .article-digest {
 .article h1 {
     font-size: 32px;
     font-weight: bold;
+    border-left: 3px solid #e98f36;
+    padding-left: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #e98f36;
 }
 
 .article h2 {
